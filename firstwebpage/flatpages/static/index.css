@@ -5,13 +5,14 @@ body {
 }
 table {
     border-collapse: collapse;
+    width: 100%;
 }
 p{
     font-size: 20px; 
     margin-bottom: 0;
 }
 h4 {
-    font-size: 25px; 
+    font-size: 45px; 
 }
 ul, ol {
     margin: 0;
@@ -29,4 +30,10 @@ img {
 }
 h1{
     font-family: serif;
+}
+#EYE{
+    position: absolute;
+    width: 10%;
+    height: 30px;
+    margin-left: 40%;
 }
