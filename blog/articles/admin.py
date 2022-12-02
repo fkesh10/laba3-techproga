@@ -3,5 +3,3 @@ from .models import Article
 class ArticleAdmin(admin.ModelAdmin):
     list_display = ('title', 'author', 'get_excerpt', 'created_date')
 admin.site.register(Article, ArticleAdmin)
-admin.site.register(Article)
-admin.site.register(ArticleAdmin)
